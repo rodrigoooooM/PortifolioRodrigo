@@ -1,0 +1,209 @@
+* {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  color: black;
+}
+body {
+  background-color: rgb(218, 230, 243);
+  color: white;
+  margin: 0;
+  flex: auto;
+}
+ 
+header {
+  background-color: rgb(51, 103, 128);
+  margin: 0;
+  padding: 5rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+ 
+#titleMeuNome {
+color: white;
+}
+ 
+nav {
+  text-align: right;
+}
+ 
+#contato {
+  background-color: white;
+  color: rgb(0, 0, 0);
+}
+ 
+#contato:hover {
+  background-color: rgb(213, 235, 255);
+  transition: 0.7s all;
+}
+ 
+.a {
+color: rgb(255, 255, 255);
+padding: 10px;
+text-decoration: none;
+margin: 5px;
+font-size: large;
+}
+ 
+ 
+#foto {
+  position: absolute;
+  border: 6px solid rgb(51, 103, 128);
+  margin-left: 5rem;
+}
+ 
+main {
+  color: black;
+}
+#title {
+  font-size: 23px;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-left: 3rem;
+}
+ 
+#title2 {
+  color: rgb(87, 87, 87);
+  font-size: 29px;
+  max-width: 35rem;
+ 
+}
+ 
+#title3 {
+  color: rgb(87, 87, 87);
+  max-width: 21rem;
+  font-size: 23px;
+  text-align: center;
+}
+ 
+#habilidade1 {
+display: flex;
+justify-content: space-evenly;
+}
+ 
+.habilidades {
+  display: flex;
+  display: inline-block;
+  flex-wrap: wrap;
+  background-color: rgb(255, 255, 255);
+  padding: 15px;
+  border-radius: 3px;
+  text-align: center;
+}
+ 
+.textoP {
+  margin-top: 8px;
+  max-width: 18rem;
+}
+ 
+.habilidades2 {
+width: 15rem;
+}
+ 
+#imagemMenor {
+width: 19rem;
+margin-top: 5px;
+}
+ 
+#projetos {
+font-size: 40px;
+margin-top: 5rem;
+text-align: center;
+color: white;
+background-color: rgb(51, 103, 128);
+padding: 1rem;
+}
+ 
+#imagemDaLoja {
+width: 60vw;
+border: 2px solid rgb(51, 103, 128);
+ 
+}
+ 
+#imagemDaLoja:hover {
+  transform: scale(1.01);
+  transition: 0.1s all;
+}
+
+.descricao {
+  max-width: 50rem;
+  font-size: 18px;
+  line-height: 2rem;
+  margin-left: 1rem;
+}
+ 
+.imagemGithub {
+width: 18rem;
+}
+ 
+.projetos-imagens {
+display: flex;
+justify-content: space-evenly;
+padding: 2rem;
+align-items: center;
+}
+ 
+.titleLoja {
+font-size: 30px;
+margin-bottom: 1rem;
+margin-left: 10px;
+}
+ 
+#titleGithub {
+max-width: 15rem;
+text-align: center;
+margin-left: 2rem;
+margin-bottom: 5px;
+}
+ 
+.projetosBase {
+display: flex;
+flex-direction: column;
+}
+ 
+#imagemDoJogo {
+width: 60vw;
+height: 30vw;
+border: 2px solid black;
+}
+ 
+#imagemDoJogo:hover {
+  transform: scale(1.01);
+  transition: 0.1s all;
+}
+ 
+footer {
+background-color: rgb(51, 103, 128);
+padding: 2rem;
+display: flex;
+flex-direction: row;
+}
+ 
+.redes {
+  color: white;
+  line-height: 28px;
+  margin-left: 1dvw;
+  font-size: 20px;
+}
+ 
+#contatoTitle {
+  margin-bottom: 1vw;
+  margin-left: 0;
+  font-size: 23px;
+}
+ 
+#forms {
+  max-width: 10rem;
+  margin-left: 2rem;
+  line-height: 23px;
+}
+ 
+label {
+  color: white;
+}
